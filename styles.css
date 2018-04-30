@@ -4,8 +4,9 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #d36f04;
   font-family: Arial;
+  margin-left: 25px;
 }
 
 p {
@@ -17,7 +18,11 @@ iframe {
   white-space: nowrap;
   border: none;
   width: 100%;
-  height: 10%;
+  height: 5%;
+}
+
+hr {
+  color: #03a4af;
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -27,7 +32,7 @@ iframe {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #03a4af;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
