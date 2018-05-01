@@ -46,7 +46,8 @@ iframe {
 
 li {
   color: white;
-  font-size: 200%;
+  font-size: 150%;
+  margin-bottom: 10px;
 }
 
 
@@ -57,7 +58,7 @@ hr {
  /* Navbar container */
  .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: inherit;
   font-family: Arial;
 }
 
@@ -69,6 +70,7 @@ hr {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  background-color: #03a4af;
 }
 
 /* The dropdown container */
@@ -82,7 +84,7 @@ hr {
   font-size: 25px;
   border: none;
   outline: none;
-  color: white;
+  color: 03a4af;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
@@ -91,7 +93,7 @@ hr {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: black;
 }
 
 /* Dropdown content (hidden by default) */
@@ -107,7 +109,7 @@ hr {
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -171,7 +173,12 @@ hr {
 #important {
   color: #03a4af;
 }
-
+#important2 {
+  color:#d36f04;
+}
+#important3 {
+  color:red;
+}
 #note {
   color: white;
   font-size: 90%;
@@ -179,9 +186,7 @@ hr {
   margin-left: 75px;
 }
 
-#important2 {
-  color:#d36f04;
-}
+
 
 #example {
   font-size: 120%;
