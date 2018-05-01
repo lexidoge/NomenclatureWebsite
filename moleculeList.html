@@ -6,25 +6,16 @@
       <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <link rel="stylesheet" href="styles.css">
     <title>Molecule List</title>
+    <script src="jquery-3.3.1.min.js"></script>
+        <script>
+            $(function(){
+                $("#includedContent").load("navBar.html");
+            });
+        </script>
   </head>
   
   <body>
-      <div class="navbar">
-          <a href="index.html">Home</a>
-          <div class="dropdown">
-            <button class="dropbtn">Dropdown
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="moleculeList.html">Molecule List</a>
-              <a href="ionicMolecules.html">Ionic Molecules</a>
-              <a href="polyAtomicMolecules.html">Polyatomic Molecules</a>
-              <a href="transition.html">Transition Metals(WIP)</a>
-              <a href="as.html">Molecular Molecules(WIP)</a>
-              <a href="as.html">Acids(WIP)</a>
-            </div>
-          </div>
-        </div> 
+      <div id="includedContent"></div>
     <hr>
     <h1>List of all molecules</h1>
     
