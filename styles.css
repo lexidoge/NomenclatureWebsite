@@ -7,11 +7,13 @@ h1 {
   color: #d36f04;
   font-family: Arial;
   margin-left: 25px;
+  font-size: 200%;
 }
 
 p {
   color: white;
   font-family: Arial;
+  margin-left: 50px;
 }
 
 iframe {
@@ -67,4 +69,20 @@ hr {
 	width: 100%;
 	height: 1px;
 	background: white;
+}
+
+.home {
+  opacity: 1;
+  font-size: 400%;
+  animation: fadein 5s;
+}
+
+.home2 {
+  font-size: 150%;
+  animation: fadein 5s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
