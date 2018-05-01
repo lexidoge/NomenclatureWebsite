@@ -8,6 +8,7 @@ h1 {
   font-family: Arial;
   margin-left: 25px;
   font-size: 200%;
+  margin-bottom: 50px;
 }
 
 p {
@@ -38,7 +39,7 @@ hr {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /* Add a color to the active/current link */
@@ -85,4 +86,29 @@ hr {
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
+}
+
+
+#important {
+  color: #03a4af;
+}
+
+li {
+  color: white;
+  font-size: 200%;
+}
+
+h2 {
+  color: #d36f04;
+  font-family: Arial;
+  margin-left: 40px;
+  font-size: 200%;
+  margin-bottom: 1px;
+}
+
+#note {
+  color: white;
+  font-size: 90%;
+  margin-top: 1px;
+  margin-left: 75px;
 }
