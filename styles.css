@@ -8,13 +8,14 @@ h1 {
   font-family: Arial;
   margin-left: 25px;
   font-size: 200%;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 p {
   color: white;
   font-family: Arial;
   margin-left: 75px;
+  margin-right: 75px;
 }
 
 iframe {
