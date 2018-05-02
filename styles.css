@@ -5,8 +5,10 @@ body {
   margin-left: 5%;
   margin-right: 75px; 
 }
-/*//////////////////////////////////////////////////*/
+
 /* main and frontMain is the grey background */
+/*//////////////////////////////////////////////////*/
+
 #main {
   background-color: #333;
   position: fixed;
@@ -113,7 +115,8 @@ hr {
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: black;
 }
-
+/* NAVBAR ELEMENTS BELOW */
+/*////////////////////////////////////////////////*/
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
@@ -139,7 +142,6 @@ hr {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 } 
@@ -149,6 +151,7 @@ hr {
   color: white;
 }
 
+/* Animation for underline for the navbar */
 .source-sliding-middle-out {
 	display: inline-block;
 	position: relative;
@@ -170,7 +173,9 @@ hr {
 	height: 1px;
 	background: white;
 }
+/*////////////////////////////////////////////////*/
 
+/* Homepage elements */
 .home {
   opacity: 1;
   font-size: 400%;
@@ -186,8 +191,9 @@ hr {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
+/*////////////////////////////////////////*/
 
-
+/* Elements where they need highlighting */
 #important {
   color: #03a4af;
 }
@@ -197,14 +203,16 @@ hr {
 #important3 {
   color:red;
 }
+
+/*/////////////////////////////////////////////////////*/
+
+/* For things that is of important but is small (e.g: "*note, _____") */
 #note {
   color: white;
   font-size: 90%;
   margin-top: 1px;
   margin-left: 75px;
 }
-
-
 
 #example {
   font-size: 120%;
@@ -214,4 +222,53 @@ hr {
 /* Bigger breaks */
 br {
   margin-bottom: 100px;
+}
+#example {
+  font-size: 120%;
+  color: #03a4af;
+}
+
+/* Bigger breaks */
+br {
+  margin-bottom: 100px;
+}
+
+/* Smaller breaks */
+#smallBreak {
+  margin-bottom: 50px;
+}
+
+/* EDIT HERE FOR MOBILE DEVICES */
+@media only screen and (max-device-width: 480px) {
+  body {
+    text-align: center;
+  }
+  p {
+    margin-left: 60px;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    margin-left: 15px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-left: 50px;
+  }
+  h2 {
+    margin-left: 50px;
+  }
+
+  li {
+    margin-left: 25px;
+  }
+
+  .home {
+    text-align: center;
+    font-size: 225%;
+    margin-top: -150px;
+  }
 }
