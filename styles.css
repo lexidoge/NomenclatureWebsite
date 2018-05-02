@@ -1,7 +1,30 @@
 body {
-  background-color: #333;
+  background: url(bg.png);
   font-family: Arial;
+  margin-top: 0;
+  margin-left: 5%;
+  margin-right: 75px; 
 }
+/*//////////////////////////////////////////////////*/
+/* main and frontMain is the grey background */
+#main {
+  background-color: #333;
+  position: fixed;
+  z-index: -1;
+  height: 100vh;
+  width: 90%;
+  opacity: .95;
+}
+
+#frontMain {
+  background-color: #333;
+  position: fixed;
+  z-index: -1;
+  height: 100vh;
+  width: 90%;
+  opacity: .5;
+}
+/*//////////////////////////////////////////////////*/
 
 h1 {
   color: #d36f04;
@@ -37,13 +60,6 @@ p {
   margin-right: 75px;
 }
 
-iframe {
-  white-space: nowrap;
-  border: none;
-  width: 100%;
-  height: 5%;
-}
-
 li {
   color: white;
   font-size: 150%;
@@ -54,12 +70,14 @@ li {
 
 hr {
   color: #03a4af;
+  width: 95%;
 }
  /* Navbar container */
  .navbar {
   overflow: hidden;
   background-color: inherit;
   font-family: Arial;
+  margin-bottom: 100px;
 }
 
 /* Links inside the navbar */
@@ -191,4 +209,9 @@ hr {
 #example {
   font-size: 120%;
   color: #03a4af;
+}
+
+/* Bigger breaks */
+br {
+  margin-bottom: 100px;
 }

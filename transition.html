@@ -9,14 +9,19 @@
         <script>
             $(function(){
                 $("#includedContent").load("navBar.html");
+                $("h1").hide().show(500);
+                $("h2").hide().delay(100).show(500);
+                $("ul").hide().delay(200).show(500);
+                $("p").hide().delay(300).show(250);
+                $("img").hide().delay(400).show(250);
             });
         </script>
         <title>Home | Nomenclature</title>
     </head>
 
     <body>
+        <div id="main"></div>
         <div id="includedContent"></div>
-        <hr>
         <h1>Transition Metals</h1>
     </body>
 </html>
