@@ -253,7 +253,7 @@ tr, td{
 }
 
 th {
-  border-top: none;
+  border-bottom: solid;
 }
 
 td:last-child {
