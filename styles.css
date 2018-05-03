@@ -79,7 +79,7 @@ hr {
   overflow: hidden;
   background-color: inherit;
   font-family: Arial;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 /* Links inside the navbar */
@@ -223,19 +223,10 @@ hr {
 br {
   margin-bottom: 100px;
 }
-#example {
-  font-size: 120%;
-  color: #03a4af;
-}
-
-/* Bigger breaks */
-br {
-  margin-bottom: 100px;
-}
 
 /* Smaller breaks */
 #smallBreak {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 table {
@@ -258,6 +249,16 @@ th {
 
 td:last-child {
   border-right: none;
+}
+
+button {
+  color: #03a4af;
+  background: none;
+  border: none;
+  margin-left: 60px;
+  overflow: hidden;
+  
+  font-size: 120%;
 }
 
 /* EDIT HERE FOR MOBILE DEVICES */
