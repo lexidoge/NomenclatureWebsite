@@ -16,7 +16,26 @@
                 $("p").hide().delay(300).show(250);
                 $("img").hide().delay(400).show(250);
                 $("table").hide().delay(500).show(250);
+                $(".hide").hide();
+                var check = 0;
+
+                $("button").click(function() {
+                    
+                    if (check == 0)
+                    {   
+                        $(this).find(".hide").show(50);
+                        check = 1;
+                    }
+                    else
+                    {
+                        $(this).find(".hide").hide();
+                        check = 0;
+                    }
+                })
+               
             });
+
+            
         </script>
         <title>Home | Nomenclature</title>
     </head>
@@ -81,6 +100,12 @@
                 <td>deca-</td>
             </tr>
         </table>
-        
+        <h2>Naming Formulas Exercise</h2>
+        <p id="note">Click the formulas to reveal the answer!</p>
+        <button>CO<sub>2</sub> <span class="hide">--> Carbon Dioxide</span></button> <br id="smallBreak">
+        <button>H<sub>2</sub>O <span class="hide">--> Dihydrogen Monoxide</span></button> <br id="smallBreak">
+        <button>NO <span class="hide">--> Nitrogen monoxide</span></button> <br id="smallBreak">
+        <button>CH<sub>4</sub> <span class="hide">--> Carbon tetraoxide (Methane)</span></button> <br id="smallBreak">
+		<button>CN<span class="hide">--> Carbon nitride (Cyanide)</span></button> <br id="smallBreak">
     </body>
 </html>
