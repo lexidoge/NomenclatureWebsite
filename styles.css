@@ -179,12 +179,12 @@ hr {
 .home {
   opacity: 1;
   font-size: 400%;
-  animation: fadein 5s;
+  animation: fadein 3s;
 }
 
 .home2 {
   font-size: 150%;
-  animation: fadein 5s;
+  animation: fadein 3s;
 }
 
 @keyframes fadein {
