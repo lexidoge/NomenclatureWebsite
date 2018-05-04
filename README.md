@@ -4,8 +4,8 @@ This is the source code for our group's final project.
 
 TODO:
 
-Lexidoge: Polyatomic Molecules & Acids
+Lexidoge: Polyatomic Molecules(WORKING) & Acids
 
-Desp4cit0: Molecule List & Transition Metals
+Desp4cit0: Molecule List & Transition Metals(WORKING)
 
-Critzlez: Ionic Molecules(DONE) & Molecular Molecules(90%)
+Critzlez: Ionic Molecules(POLISHING) & Molecular Molecules(POLISHING)
