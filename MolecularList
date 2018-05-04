@@ -1,0 +1,158 @@
+<DOCTYPE! html>
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+      <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Molecule List</title>
+    <script src="jquery-3.3.1.min.js"></script>
+        <script>
+            $(function(){
+                $("#includedContent").load("navBar.html");
+                $("h1").hide().show(500);
+                $("h2").hide().delay(100).show(500);
+                $("h3").hide().delay(200).show(500);
+                $("ul").hide().delay(200).show(500);
+                $("p").hide().delay(300).show(250);
+                $("img").hide().delay(400).show(250);
+            });
+        </script>
+  </head>
+  
+  <body>
+      <div id="main"></div>
+      <div id="includedContent"></div>
+    <h1>List of all molecules</h1>
+	<h2>-1 ions</h2>
+    <table>
+  <tr>
+    <th>formula</th>
+    <th>name</th> 
+  </tr>
+  <tr>
+    <td>H<sup>-1</sup></td>
+    <td>Hydride</td> 
+  </tr>
+  <tr>
+    <td>F<sup>-1</sup></td>
+    <td>Flouride</td> 
+  </tr>
+  <tr>
+    <td>Cl<sup>-1</sup></td>
+    <td>Chloride</td> 
+  </tr>
+  <tr>
+    <td>Br<sup>-1</sup></td>
+    <td>Bromide</td> 
+  </tr>
+  <tr>
+    <td>I<sup>-1</sup></td>
+    <td>Iodide</td> 
+  </tr>
+  <tr>
+    <td>(OH)<sup>-1</sup></td>
+    <td>Hydroxide</td> 
+  </tr>
+  <tr>
+    <td>(NO<sub>2</sub>)<sup>-1</sup></td>
+    <td>Nitrite</td> 
+  </tr>
+  <tr>
+    <td>(NO<sub>3</sub>)<sup>-1</sup></td>
+    <td>Nitrate</td> 
+  </tr>
+  <tr>
+    <td>(ClO)<sup>-1</sup></td>
+    <td>Hypochlorite</td> 
+  </tr>
+  <tr>
+    <td>(ClO<sub>2</sub>)<sup>-1</sup></td>
+    <td>chlorite</td> 
+  </tr>
+  <tr>
+    <td>(ClO<sub>3</sub>)<sup>-1</sup></td>
+    <td>Chlorate</td> 
+  </tr>
+  <tr>
+    <td>(ClO<sub>4</sub>)<sup>-1</sup></td>
+    <td>Perchlorate</td> 
+  </tr>
+  <tr>
+    <td>(CN)<sup>-1</sup></td>
+    <td>Cyanide</td> 
+  </tr>
+  <tr>
+    <td>(IO<sub>3</sub>)<sup>-1</sup></td>
+    <td>Iodate</td> 
+  </tr>
+  <tr>
+    <td>(BrO<sub>3</sub>)<sup>-1</sup></td>
+    <td>Bromate</td> 
+  </tr>
+  <tr>
+    <td>(MnO<sub>4</sub>)<sup>-1</sup></td>
+    <td>Permanganate</td> 
+  </tr>
+  <tr>
+    <td>(SCN)<sup>-1</sup></td>
+    <td>Thiocyanate</td> 
+  </tr>
+  <tr>
+    <td>(C<sub>2</sub>H<sub>3</sub>O<sub>2</sub>)<sup>-1</sup></td>
+    <td>Cyanide</td>
+  </tr>
+  <tr>
+	<td>(CH<sub>3</sub>COO)<sup>-1</sup></td>
+  </tr>
+  <tr>
+    <td>(HCO<sub>3</sub>)<sup>-1</sup></td>
+    <td>Bicarbonate/ Hydrogen Carbonate</td> 
+  </tr>
+  <tr>
+    <td>(HS)<sup>-1</sup></td>
+    <td>Bisulfide/ Hydrogen Sulfide</td> 
+  </tr>
+  <tr>
+    <td>(HSO<sub>3</sub>)<sup>-1</sup></td>
+    <td>Bisulfite/ Hydrogen Sulfite</td> 
+  </tr>
+  <tr>
+    <td>(HSO<sub>4</sub>)<sup>-1</sup></td>
+    <td>Bisulfate/ Hydrogen Sulfate</td> 
+  </tr>
+  <tr>
+    <td>(H<sub>2</sub>PO<sub>4</sub>)<sup>-1</sup></td>
+    <td>Dihydrogen Phosphate</td> 
+  </tr>
+</table>
+<h2>-2 ions</h2>
+<table>
+ <tr>
+  <td>O<sup>-2</sup></td>
+  <td>Oxide</td>
+ </tr>
+  <tr>
+  <td>(O<sub>2</sub>)<sup>-2</sup></td>
+  <td>Peroxide</td>
+ </tr>
+  <tr>
+  <td>S<sup>-2</sup></td>
+  <td>Sulfide</td>
+ </tr>
+  <tr>
+  <td>(CO<sub>3</sub>)<sup>-2</sup></td>
+  <td>Carbonate</td>
+ </tr>
+  <tr>
+  <td>(SO<sub>3</sub>)<sup>-2</sup></td>
+  <td>Sulfite</td>
+ </tr>
+  <tr>
+  <td>(SO<sub>4</sub>)<sup>-2</sup></td>
+  <td>Sulfate</td>
+ </tr>
+ 
+</table>
+  </body>
+</html>
