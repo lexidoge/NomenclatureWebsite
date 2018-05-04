@@ -79,7 +79,7 @@ hr {
   overflow: hidden;
   background-color: inherit;
   font-family: Arial;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 /* Links inside the navbar */
@@ -104,7 +104,7 @@ hr {
   font-size: 25px;
   border: none;
   outline: none;
-  color: 03a4af;
+  color: #03a4af;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
@@ -113,7 +113,7 @@ hr {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: black;
+  background-color: #454545;
 }
 /* NAVBAR ELEMENTS BELOW */
 /*////////////////////////////////////////////////*/
@@ -122,7 +122,7 @@ hr {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 246px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -179,12 +179,12 @@ hr {
 .home {
   opacity: 1;
   font-size: 400%;
-  animation: fadein 5s;
+  animation: fadein 3s;
 }
 
 .home2 {
   font-size: 150%;
-  animation: fadein 5s;
+  animation: fadein 3s;
 }
 
 @keyframes fadein {
@@ -223,19 +223,43 @@ hr {
 br {
   margin-bottom: 100px;
 }
-#example {
-  font-size: 120%;
-  color: #03a4af;
-}
-
-/* Bigger breaks */
-br {
-  margin-bottom: 100px;
-}
 
 /* Smaller breaks */
 #smallBreak {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+}
+
+table {
+  margin-top: 50px;
+  margin-left: 50px;
+  color: white;
+  border: 2px  solid;
+  border-color: black;
+}
+
+tr, td{
+  color: #03a4af;
+  padding: 20px;
+  font-size: 105%;
+  text-align: center;
+}
+
+th {
+  border-bottom: solid;
+}
+
+td:last-child {
+  border-right: none;
+}
+
+button {
+  color: #03a4af;
+  background: none;
+  border: none;
+  margin-left: 60px;
+  overflow: hidden;
+  
+  font-size: 120%;
 }
 
 /* EDIT HERE FOR MOBILE DEVICES */

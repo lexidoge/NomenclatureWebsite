@@ -1,0 +1,111 @@
+<DOCTYPE! html>
+<html>
+   <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+        <link rel="stylesheet" href="styles.css">
+        <script src="jquery-3.3.1.min.js"></script>
+        <script>
+            $(function(){
+                $("#includedContent").load("navBar.html");
+                $("h1").hide().show(500);
+                $("h2").hide().delay(100).show(500);
+                $("h3").hide().delay(200).show(500);
+                $("ul").hide().delay(200).show(500);
+                $("p").hide().delay(300).show(250);
+                $("img").hide().delay(400).show(250);
+                $("table").hide().delay(500).show(250);
+                $(".hide").hide();
+                var check = 0;
+
+                $("button").click(function() {
+                    
+                    if (check == 0)
+                    {   
+                        $(this).find(".hide").show(50);
+                        check = 1;
+                    }
+                    else
+                    {
+                        $(this).find(".hide").hide();
+                        check = 0;
+                    }
+                })
+               
+            });
+
+            
+        </script>
+        <title>Home | Nomenclature</title>
+    </head>
+
+    <body>
+        <div id="main"></div>
+        <div id="includedContent"></div>
+        <h1>Moleculars</h1>
+        <h2>Important Facts:</h2>
+      <p id="note">*<span id="important">Blue</span> highlighted are the more important notes</p>
+        <ul>
+          <li>Forms between <span id="important">2+ nonmetals</span></li>
+          <li>Can be multiple combinations of the same atoms</li>
+          <li><span id="important">Name ends with -ide</span></li>
+          <li><span id="important">If a vowel is at the end, it is dropped if element starts with a vowel</span></li>
+          <li><span id="important">If it is mono-, it is omitted if only one of the first atom</span></li>
+        </ul>
+        <h2>Names for Each Digit:</h2>
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Prefix</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>-mono</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>di-</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>tri-</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>tetra-</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>penta-</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>hexa-</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>hepta-</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>octa-</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>nona-</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>deca-</td>
+            </tr>
+        </table>
+        <h2>Naming Formulas Exercise</h2>
+        <p id="note">Click the formulas to reveal the answer!</p>
+        <button>CO<sub>2</sub> <span class="hide">--> Carbon Dioxide</span></button> <br id="smallBreak">
+        <button>H<sub>2</sub>O <span class="hide">--> Dihydrogen Monoxide</span></button> <br id="smallBreak">
+        <button>NO <span class="hide">--> Nitrogen monoxide</span></button> <br id="smallBreak">
+        <button>CH<sub>4</sub> <span class="hide">--> Carbon tetraoxide (Methane)</span></button> <br id="smallBreak">
+		<button>CN<span class="hide">--> Carbon nitride (Cyanide)</span></button> <br id="smallBreak">
+    </body>
+</html>
