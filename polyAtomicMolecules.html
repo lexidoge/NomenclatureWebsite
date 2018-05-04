@@ -17,6 +17,21 @@
                 $("ul").hide().delay(200).show(500);
                 $("p").hide().delay(300).show(250);
                 $("img").hide().delay(400).show(250);
+                $(".hide").hide();
+
+                $(".exercise").click(function() {
+                    
+                    if ($(this).find(".hide").is(":hidden"))
+                    {   
+                        $(this).find(".hide").show();
+                      
+                    }
+                    else
+                    {
+                        $(this).find(".hide").hide();
+                      
+                    }
+                })
             });
         </script>
   </head>
