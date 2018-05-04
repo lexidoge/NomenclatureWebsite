@@ -9,7 +9,7 @@ body {
 /* main and frontMain is the grey background */
 /*//////////////////////////////////////////////////*/
 
-#main {
+.main {
   background-color: #333;
   position: fixed;
   z-index: -1;
@@ -193,31 +193,31 @@ hr {
 }
 /*////////////////////////////////////////*/
 
-.hide {
+.answer {
   color: #d36f04;
 }
 /* Elements where they need highlighting */
-#important {
+.important {
   color: #03a4af;
 }
-#important2 {
+.important2 {
   color:#d36f04;
 }
-#important3 {
+.important3 {
   color:red;
 }
 
 /*/////////////////////////////////////////////////////*/
 
 /* For things that is of important but is small (e.g: "*note, _____") */
-#note {
+.note {
   color: white;
   font-size: 90%;
   margin-top: 1px;
   margin-left: 75px;
 }
 
-#example {
+.example {
   font-size: 120%;
   color: #03a4af;
   margin-left: 100px;
@@ -225,7 +225,7 @@ hr {
 
 
 /* Bigger breaks */
-#smallBreak {
+.smallBreak {
   margin-bottom: 10px;
 }
 

@@ -8,7 +8,7 @@
         <script src="jquery-3.3.1.min.js"></script>
         <script>
             $(function(){
-                $("#includedContent").load("navBar.html");
+                $(".includedContent").load("navBar.html");
                 $("h1").hide().show(500);
                 $("h2").hide().delay(100).show(500);
                 $("h3").hide().delay(200).show(500);
@@ -16,18 +16,18 @@
                 $("p").hide().delay(300).show(250);
                 $("img").hide().delay(400).show(250);
                 $("table").hide().delay(500).show(250);
-                $(".hide").hide();
+                $(".answer").hide();
                 
                 $(".exercise").click(function() {
                     
-                    if ($(this).find(".hide").is(":hidden"))
+                    if ($(this).find(".answer").is(":hidden"))
                     {   
-                        $(this).find(".hide").show();
+                        $(this).find(".answer").show();
                       
                     }
                     else
                     {
-                        $(this).find(".hide").hide();
+                        $(this).find(".answer").hide();
                       
                     }
                 })
@@ -40,18 +40,20 @@
     </head>
 
     <body>
-        <div id="main"></div>
-        <div id="includedContent"></div>
+        <div class="main"></div>
+        <div class="includedContent"></div>
         <h1>Moleculars</h1>
+
         <h2>Important Facts:</h2>
-      <p id="note">*<span id="important">Blue</span> highlighted are the more important notes</p>
+        <p id="note">*<span id="important">Blue</span> highlighted are the more important notes</p>
         <ul>
-          <li>Forms between <span id="important">2+ nonmetals</span></li>
-          <li>Can be multiple combinations of the same atoms</li>
-          <li><span id="important">Name ends with -ide</span></li>
-          <li><span id="important">If a vowel is at the end, it is dropped if element starts with a vowel</span></li>
-          <li><span id="important">If it is mono-, it is omitted if only one of the first atom</span></li>
+            <li>Forms between <span id="important">2+ nonmetals</span></li>
+            <li>Can be multiple combinations of the same atoms</li>
+            <li><span id="important">Name ends with -ide</span></li>
+            <li><span id="important">If a vowel is at the end, it is dropped if element starts with a vowel</span></li>
+            <li><span id="important">If it is mono-, it is omitted if only one of the first atom</span></li>
         </ul>
+
         <h2>Names for Each Digit:</h2>
         <table>
             <tr>
@@ -100,15 +102,15 @@
             </tr>
         </table>
         <h2>Naming Formulas Exercise</h2>
-        <p id="note">Click the formulas to reveal the answer!</p>
-        <p class="exercise">CO<sub>2</sub> <span class="hide">&rarr; Carbon Dioxide</span></p>
-        <br id="smallBreak">
-        <p class="exercise">H<sub>2</sub>O <span class="hide">&rarr; Dihydrogen Monoxide</span></p>
-        <br id="smallBreak">
-        <p class="exercise">NO <span class="hide">&rarr; Nitrogen monoxide</span></p>
-        <br id="smallBreak">
-        <p class="exercise">CH<sub>4</sub> <span class="hide">&rarr; Carbon tetraoxide (Methane)</span></p>
-        <br id="smallBreak">
-		<p class="exercise">CN<span class="hide">&rarr; Carbon nitride (Cyanide)</span></p> <br id="smallBreak">
+        <p class="note">Click the formulas to reveal the answer!</p>
+        <p class="exercise">CO<sub>2</sub> <span class="answer">&rarr; Carbon Dioxide</span></p>
+        <br class="smallBreak">
+        <p class="exercise">H<sub>2</sub>O <span class="answer">&rarr; Dihydrogen Monoxide</span></p>
+        <br class="smallBreak">
+        <p class="exercise">NO <span class="answer">&rarr; Nitrogen monoxide</span></p>
+        <br class="smallBreak">
+        <p class="exercise">CH<sub>4</sub> <span class="answer">&rarr; Carbon tetraoxide (Methane)</span></p>
+        <br class="smallBreak">
+		<p class="exercise">CN<span class="answer">&rarr; Carbon nitride (Cyanide)</span></p> <br id="smallBreak">
     </body>
 </html>
