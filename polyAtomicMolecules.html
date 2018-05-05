@@ -10,7 +10,7 @@
       <script src="jquery-3.3.1.min.js"></script>
         <script>
             $(function(){
-                $("#includedContent").load("navBar.html");
+                $(".includedContent").load("navBar.html");
                 $("h1").hide().show(500);
                 $("h2").hide().delay(100).show(500);
                 $("h3").hide().delay(200).show(500);
@@ -37,36 +37,31 @@
   </head>
 
   <body>
-      <div id="main"></div>
-      <div id="includedContent"></div>
+        <div class="main"></div>
+        <div class="includedContent"></div>
       
-      <h1>Polyatomic Molecules</h1>
+        <h1>Polyatomic Molecules</h1>
 
-      <h2>Important Facts:</h2>
-      <p id="note">*<span id="important">Blue</span> highlighted are the more important notes</p>
+        <h2>Important Facts:</h2>
+        <p class="note">*<span class="important">Blue</span> highlighted are the more important notes</p>
         <ul>
-          <li>Forms between <span id="important">many (>2) ions</span> from representative elements</li>
-          <li><b><span id="important">The names listed below you will have to memorize</span></b></li>
-          <li>Both elements <span id="important">should make a neutral molecule</span></li>
+            <li>Forms between <span class="important">many (>2) ions</span> from representative elements</li>
+            <li><b><span class="important">The names listed below you will have to memorize</span></b></li>
+            <li>Both elements <span class="important">should make a neutral molecule</span></li>
         </ul>
 
-      <h2>Polyatomic Formulas</h2>
-<<<<<<< HEAD
+        <h3>Polyatomic Formulas</h3>
         <ul>
-            <li><span id="important">Parenthesis</span> are used when you have multiple of a polyatomic.</li>
+            <li><span class="important">Parenthesis</span> are used when you have multiple of a polyatomic.</li>
             <li>Write the ion/polyatomics needed, then balance the charges as described in <a href="ionicMolecules.html#TheKamineWay" id="important">The Kamine Way</a></li>
-      </ul>
-      <h2>Naming Formulas</h2>
-      <p>All you have to do for this, is just get both of the names of the molecules.</p>
-      <p style="color: #d36f04; font-size: 120%">Example:</p>
-      <p id="example">NH<sub>4</sub><sup>1+</sup> + SO<sub>2</sub><sup>2-</sup> = (NH<sub>4</sub>)<sub>2</sub> SO4 = Ammonium Sulfate</p>
-=======
-        <p><span id="important">Parenthesis</span> are used when you have multiple of a polyatomic.</p>
-        <p>Write the ion/polyatomics needed, then balance the charges as described in <span id="important">The Kamine Way</span> on Ionic Molecules</p>
-      <h2>Naming Formulas</h2>
+        </ul>     
+     
+        <h2>Naming Formulas Exercise</h2>
         <p>All you have to do for this, is just get both of the names of the molecules.</p>
-        <p style="color: #d36f04; font-size: 120%">Example:</p>
-        <p id="example">NH<sub>4</sub><sup>1+</sup> + SO<sub>4</sub><sup>2-</sup> = (NH<sub>4</sub>)<sub>2</sub> SO<sub>4</sub> = Ammonium Sulfate</p>
->>>>>>> 2ce16d3ae717a6ebc52514e14b1dddc53bb5fd25
-  </body>
+
+        <h3>Example:</h3>
+        <p class="example">NH<sub>4</sub><sup>1+</sup> + SO<sub>4</sub><sup>2-</sup> = (NH<sub>4</sub>)<sub>2</sub> SO<sub>4</sub> = <span id="important2">Ammonium Sulfate</span></p>
+        
+        <h3>Exercises:</h3>
+    </body>
 </html>

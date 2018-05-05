@@ -16,21 +16,6 @@
                 $("ul").hide().delay(200).show(500);
                 $("p").hide().delay(300).show(250);
                 $("img").hide().delay(400).show(250);
-                $(".hide").hide();
-                
-                $(".exercise").click(function() {
-                    
-                    if ($(this).find(".hide").is(":hidden"))
-                    {   
-                        $(this).find(".hide").show();
-                      
-                    }
-                    else
-                    {
-                        $(this).find(".hide").hide();
-                      
-                    }
-                })
             });
         </script>
   </head>
@@ -38,7 +23,7 @@
   <body>
       <div id="main"></div>
       <div id="includedContent"></div>
-    <h1>List of all polyatomics:</h1>
+    <h1>List of all molecules</h1>
 	<h2>-1 ions</h2>
     <table>
   <tr>
@@ -124,8 +109,50 @@
     <td>(HCO<sub>3</sub>)<sup>-1</sup></td>
     <td>Bicarbonate/ Hydrogen Carbonate</td> 
   </tr>
-  
+  <tr>
+    <td>(HS)<sup>-1</sup></td>
+    <td>Bisulfide/ Hydrogen Sulfide</td> 
+  </tr>
+  <tr>
+    <td>(HSO<sub>3</sub>)<sup>-1</sup></td>
+    <td>Bisulfite/ Hydrogen Sulfite</td> 
+  </tr>
+  <tr>
+    <td>(HSO<sub>4</sub>)<sup>-1</sup></td>
+    <td>Bisulfate/ Hydrogen Sulfate</td> 
+  </tr>
+  <tr>
+    <td>(H<sub>2</sub>PO<sub>4</sub>)<sup>-1</sup></td>
+    <td>Dihydrogen Phosphate</td> 
+  </tr>
 </table>
-
+<h2>-2 ions</h2>
+<table>
+ <tr>
+  <td>O<sup>-2</sup></td>
+  <td>Oxide</td>
+ </tr>
+  <tr>
+  <td>(O<sub>2</sub>)<sup>-2</sup></td>
+  <td>Peroxide</td>
+ </tr>
+  <tr>
+  <td>S<sup>-2</sup></td>
+  <td>Sulfide</td>
+ </tr>
+  <tr>
+  <td>(CO<sub>3</sub>)<sup>-2</sup></td>
+  <td>Carbonate</td>
+ </tr>
+  <tr>
+  <td>(SO<sub>3</sub>)<sup>-2</sup></td>
+  <td>Sulfite</td>
+ </tr>
+  <tr>
+  <td>(SO<sub>4</sub>)<sup>-2</sup></td>
+  <td>Sulfate</td>
+ </tr>
+ 
+</table>
   </body>
 </html>

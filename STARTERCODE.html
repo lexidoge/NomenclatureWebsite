@@ -9,7 +9,7 @@
         <script src="jquery-3.3.1.min.js"></script>
         <script>
             $(function(){
-                $("#includedContent").load("navBar.html");
+                $(".includedContent").load("navBar.html");
                 $("h1").hide().show(500);
                 $("h2").hide().delay(100).show(500);
                 $("h3").hide().delay(200).show(500);
@@ -37,20 +37,24 @@
     </head>
 
     <body>
-        <div id="main"></div>
-        <div id="includedContent"></div>
+        <div class="main"></div>
+        <div class="includedContent"></div>
         <h1>TITLE HERE</h1>
 
         <h2>Important Facts:</h2>
-        <p id="note">*<span id="important">Blue</span> highlighted are the more important notes</p>
+        <p class="note">*<span class="important">Blue</span> highlighted are the more important notes</p>
         <ul>
-          <li>Forms between <span id="important">2+ nonmetals</span></li>
+          <li>Forms between <span class="important">2+ nonmetals</span></li>
           <li>Can be multiple combinations of the same atoms</li>
-          <li><span id="important">Name ends with -ide</span></li>
-          <li><span id="important">If a vowel is at the end, it is dropped if element starts with a vowel</span></li>
-          <li><span id="important">If it is mono-, it is omitted if only one of the first atom</span></li>
+          <li><span class="important">Name ends with -ide</span></li>
+          <li><span class="important">If a vowel is at the end, it is dropped if element starts with a vowel</span></li>
+          <li><span class="important">If it is mono-, it is omitted if only one of the first atom</span></li>
         </ul>
         
-        <h2>Naming Formulas</h2>
+        <h2>Naming Formulas Exercise</h2>
+
+        <h3>Example:</h3>
+   
+        <h3>Exercises:</h3>
     </body>
 </html>
