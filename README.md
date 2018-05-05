@@ -12,5 +12,8 @@ Critzlez: Ionic Molecules(DONE) & Molecular Molecules(90%)
 
 Unassigned: 
 Debug mobile formatting
+Remove ions from polyatomic list page
+Highlight most important polyatomics
+Center pictures on ionic page
 Add guide to finding charges of ions
 Highlight important polyatomics
