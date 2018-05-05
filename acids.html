@@ -9,7 +9,7 @@
         <script src="jquery-3.3.1.min.js"></script>
         <script>
             $(function(){
-                $("#includedContent").load("navBar.html");
+                $(".includedContent").load("navBar.html");
                 $("h1").hide().show(500);
                 $("h2").hide().delay(100).show(500);
                 $("h3").hide().delay(200).show(500);
@@ -22,26 +22,28 @@
     </head>
 
     <body>
-        <div id="main"></div>
-        <div id="includedContent"></div>
+        <div class="main"></div>
+        <div class="includedContent"></div>
         <h1>Acids</h1>
 
         <h2>Important Facts:</h2>
-        <p id="note">*<span id="important">Blue</span> highlighted are the more important notes</p>
+        <p class="note">*<span class="important">Blue</span> highlighted are the more important notes</p>
         <ul>
-            <li>An acid is a substance that produces <span id="important">H+ ions</span> in a solution.</li>
-            <li>Formula start with <span id="important">H</span>.</li>
-            <li>Name includes <span id="important">"acid"</span>.</li>
+            <li>An acid is a substance that produces <span class="important">H+ ions</span> in a solution.</li>
+            <li>Formula start with <span class="important">H</span>.</li>
+            <li>Name includes <span class="important">"acid"</span>.</li>
         </ul>
         <h2>Naming Acids</h2>
-            <p>If it is binary and name ends in <span id="important">-ide</span>, then it changes to <span id="important">hydro ___ -ic acid</span>.</p>
-            <p>e.g. HCl = hydrogen chlor<span id="important">ide</span> = <span id="important">hydro</span>chlor<span id="important">ic acid</span>.</p>
-            <p>If it is polyatomic, and the name ends in <span id="important">-ite</span>, then it changes to <span id="important"> ___ -ous acid</span>.</p>
-            <p>e.g. H<sub>2</sub>SO<sub>3</sub> = hydrogen sulf<span id="important">ite</span> = sulfur<span id="important">ous acid</span>.</p>
-            <p>If it is polyatomic, and the name ends in <span id="important">-ate</span>, then it changes to <span id="important">-ic acid</span>.</p>
-            <p>e.g. HNO<sub>3</sub> = hydrogen nitr<span id="important">ate</span> = nitr<span id="important">ic acid</span>.</p>
+            <p>If it is binary and name ends in <span class="important">-ide</span>, then it changes to <span class="important">hydro ___ -ic acid</span>.</p>
+            <p>e.g. HCl = hydrogen chlor<span class="important">ide</span> = <span class="important">hydro</span>chlor<span class="important">ic acid</span>.</p>
+            <br>
+            <p>If it is polyatomic, and the name ends in <span class="important">-ite</span>, then it changes to <span class="important"> ___ -ous acid</span>.</p>
+            <p>e.g. H<sub>2</sub>SO<sub>3</sub> = hydrogen sulf<span class="important">ite</span> = sulfur<span class="important">ous acid</span>.</p>
+            <br>
+            <p>If it is polyatomic, and the name ends in <span class="important">-ate</span>, then it changes to <span class="important">-ic acid</span>.</p>
+            <p>e.g. HNO<sub>3</sub> = hydrogen nitr<span class="important">ate</span> = nitr<span class="important">ic acid</span>.</p>
 
         <h2>Making Formulas</h2>
-            <p>Formulas for acids follow the same rules as ionic or polyatomic molecules, because they <span id="important">are</span> ionic or polyatomic molecules, they just happen to <span id="important">also produce H<sub>+</sub> ions</span>.</p>
+            <p>Formulas for acids follow the same rules as ionic or polyatomic molecules, because they <span class="important">are</span> ionic or polyatomic molecules, they just happen to <span id="important">also produce H<sub>+</sub> ions</span>.</p>
     </body>
 </html>
