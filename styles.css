@@ -295,6 +295,6 @@ td:last-child {
   .home {
     text-align: center;
     font-size: 225%;
-    margin-top: -150px;
+    font-size: 175%;
   }
 }
