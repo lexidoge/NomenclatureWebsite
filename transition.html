@@ -9,7 +9,7 @@
         <script src="jquery-3.3.1.min.js"></script>
         <script>
             $(function(){
-                $("#includedContent").load("navBar.html");
+                $(".includedContent").load("navBar.html");
                 $("h1").hide().show(500);
                 $("h2").hide().delay(100).show(500);
                 $("h3").hide().delay(200).show(500);
@@ -37,8 +37,8 @@
     </head>
 
     <body>
-        <div id="main"></div>
-        <div id="includedContent"></div>
+        <div class="main"></div>
+        <div class="includedContent"></div>
         <h1>Transition Metals</h1>
     </body>
 </html>
