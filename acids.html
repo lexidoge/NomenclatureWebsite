@@ -16,6 +16,21 @@
                 $("ul").hide().delay(200).show(500);
                 $("p").hide().delay(300).show(250);
                 $("img").hide().delay(400).show(250);
+                $(".answer").hide();
+
+                $(".exercise").click(function() {
+                    
+                    if ($(this).find(".answer").is(":hidden"))
+                    {   
+                        $(this).find(".answer").show();
+                      
+                    }
+                    else
+                    {
+                        $(this).find(".answer").hide();
+                      
+                    }
+                })
             });
         </script>
         <title>Acids</title>
@@ -29,9 +44,11 @@
         <h2>Important Facts:</h2>
         <p class="note">*<span class="important">Blue</span> highlighted are the more important notes</p>
         <ul>
-            <li>An acid is a substance that produces <span class="important">H+ ions</span> in a solution.</li>
+            <li>An acid is a substance that produces <span class="important">H+/Hydronium ions</span> when it is in a solution.</li>
             <li>Formula start with <span class="important">H</span>.</li>
             <li>Name includes <span class="important">"acid"</span>.</li>
+            <li>Strong acids are <span class="important">100% ionized</span></li>
+            <li>Weak acids are not</li>
         </ul>
         <h2>Naming Acids</h2>
             <p>If it is binary and name ends in <span class="important">-ide</span>, then it changes to <span class="important">hydro ___ -ic acid</span>.</p>
@@ -44,6 +61,25 @@
             <p>e.g. HNO<sub>3</sub> = hydrogen nitr<span class="important">ate</span> = nitr<span class="important">ic acid</span>.</p>
 
         <h2>Making Formulas</h2>
-            <p>Formulas for acids follow the same rules as ionic or polyatomic molecules, because they <span class="important">are</span> ionic or polyatomic molecules, they just happen to <span id="important">also produce H<sub>+</sub> ions</span>.</p>
+            <p>Formulas for acids follow the same rules as ionic or polyatomic molecules, because they <span class="important">are</span> ionic or polyatomic molecules, they just <span class="important">also produce H<sub>+</sub> ions</span>.</p>
+
+        <h3>Naming Excercises</h3>
+            <p>Click to reveal answer.</p>
+        
+        <p class="exercise">H<sub>2</sub>SO<sub>4</sub> <span class="answer">&rarr; Sulfuric Acid</span></p>
+        <br class="smallBreak">
+
+        <p class="exercise">HF <span class="answer">&rarr; Hydroflouric Acid</span></p>
+        <br class="smallBreak">
+
+        <p class="exercise">HNO<sub>2</sub> <span class="answer">&rarr; Nitric Acid</span></p>
+        <br class="smallBreak">
+
+        <p class="exercise">H<sub>3</sub>PO<sub>4</sub> <span class="answer">&rarr; Phosphoric acid</span></p>
+        <br class="smallBreak">
+
+        <p class="exercise">HBr <span class="answer">&rarr; hydrobromic Acid</span></p>
+        <br class="smallBreak">
+
     </body>
 </html>
