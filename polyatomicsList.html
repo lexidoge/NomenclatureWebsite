@@ -16,18 +16,18 @@
                 $("ul").hide().delay(200).show(500);
                 $("p").hide().delay(300).show(250);
                 $("img").hide().delay(400).show(250);
-                $(".answer").hide();
+                $(".hide").hide();
                 
                 $(".exercise").click(function() {
                     
-                    if ($(this).find(".answer").is(":hidden"))
+                    if ($(this).find(".hide").is(":hidden"))
                     {   
-                        $(this).find(".answer").show();
+                        $(this).find(".hide").show();
                       
                     }
                     else
                     {
-                        $(this).find(".answer").hide();
+                        $(this).find(".hide").hide();
                       
                     }
                 })
@@ -38,7 +38,8 @@
   <body>
       <div class="main"></div>
       <div class="includedContent"></div>
-    <h1>List of Important Polyatomics:</h1>
+    <h1>List of Polyatomics:</h1>
+	<h2> the work</h2>
     <table>
   <tr>
     <th>Formula</th>
@@ -94,7 +95,27 @@
   </tr>
   <tr>
    <td>(PO<sub>4</sub>)<sup>-3</sup></td>
-   <td></td>
+   <td>Phosphate</td>
+  </tr>
+  <tr>
+   <td>(SCN)<sup>-1</sup></td>
+   <td>Thiocyanate</td>
+  </tr>
+  <tr>
+   <td>(C<sub>2</sub>O<sub>4</sub>)<sup>-2</sup></td>
+   <td>Oxalate</td>
+  </tr>
+  <tr>
+   <td>O<sub>2</sub><sup>-2</sup></td>
+   <td>Peroxide</td>
+  </tr>
+  <tr>
+   <td>(CrO<sub>4</sub>)<sup>-2</sup></td>
+   <td>Chromate</td>
+  </tr>
+  <tr>
+   <td>(C<sub>4</sub>H<sub>4</sub>O<sub>6</sub>)<sup>-2</sup></td>
+   <td>Tartrate</td>
   </tr>
 </table>
 
