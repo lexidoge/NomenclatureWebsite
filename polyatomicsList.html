@@ -8,7 +8,8 @@
     <title>Molecule List</title>
     <script src="jquery-3.3.1.min.js"></script>
         <script>
-            $(function(){
+            $(function()
+            {
                 $(".includedContent").load("navBar.html");
                 $("h1").hide().show(500);
                 $("h2").hide().delay(100).show(500);
@@ -19,8 +20,8 @@
                 $("table").hide().delay(100).show(500);
                 $(".hide").hide();
                 
-                $(".exercise").click(function() {
-                    
+                $(".exercise").click(function()
+                {
                     if ($(this).find(".hide").is(":hidden"))
                     {   
                         $(this).find(".hide").show();
