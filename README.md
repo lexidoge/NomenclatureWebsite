@@ -6,7 +6,7 @@ TO-DO:
 
 Lexidoge: Polyatomic Molecules (add examples) & Acids (60% done)
 
-Desp4cit0: Molecule List (saved to G-drive, cannot see here, sorry I'm not epic and is n00b) & Transition Metals(WORKING)
+Desp4cit0: Molecule List (DONE) & Transition Metals(WORKING ON LAYOUT,*orginizing content)
 
 Critzlez: Ionic Molecules(DONE) & Molecular Molecules(90%)
 
