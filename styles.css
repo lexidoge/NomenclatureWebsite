@@ -290,6 +290,24 @@ td:last-child {
   user-select: none;
 }
 
+.tablelink {
+  color: white
+}
+.tablelink:hover {
+  background-color: #d36f04;
+}
+
+a.tablelinkcontent {
+  color: white;
+}
+
+a:visited.tablelinkcontent {
+  color: white;
+}
+
+a:active.tablelinkcontent {
+  color:#03a4af
+}
 /* EDIT HERE FOR MOBILE DEVICES */
 @media only screen and (max-device-width: 480px) {
   body {
@@ -328,4 +346,6 @@ td:last-child {
   table {
     margin-left: 5%
   }
+
+
 }
