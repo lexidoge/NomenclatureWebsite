@@ -9,7 +9,7 @@
         <script src="jquery-3.3.1.min.js"></script>
         <script>
             $(function(){
-                $(".includedContent").load("navBar.html");
+                $("#includedContent").load("navBar.html");
                 $("h1").hide().show(500);
                 $("h2").hide().delay(100).show(500);
                 $("h3").hide().delay(200).show(500);
@@ -37,11 +37,27 @@
     </head>
 
     <body>
-        <div class="main"></div>
-        <div class="includedContent"></div>
+        <div id="main"></div>
+        <div id="includedContent"></div>
         <h1>Transition Metals</h1>
-		 <h2>Important Facts:</h2>
+		    <h2>Important Facts:</h2>
         <p class="note">*<span class="important">Blue</span> highlighted are the more important notes</p>
+		<ul>
+		<li><span class="important">Any</span> compound containing a transition metal is a <span class="important">binary ionic compound</span></li>
 		
+		</ul>
+		<h2>Naming Binary Ionic Compounds</h2>
+		<p>the transition metal present in the formula is <span class="important">first</span> in the name of the whole compound and does not change.</p>
+		<p>e.g. FeCl<sub>2</sub> = Iron(II) Chloride</p>
+		<br>
+		<p>Transition metals' charge varies in value but they are all cations (always positive). Because of this we must clarify it's charge in the name of the compound. We do this by placing a roman numeral next to the transition metal.</p>
+		<p>e.g. Fe<sup>+2</sup> + Cl<sup>-</sup> = Iron(II) Chloride
+		<br>
+		<ul>
+		<li><span class="important">EXCEPTIONS</span>: Silver, Zinc, Scandium, Cadmium, Aluminum, Gallium have constants charges and do not require a Roman Numeral.</li>
+		<li style="margin-left: 50px"><span class="important">Ag=+1</span> <span class="important">Zn=+2</span> <span class="important">Sc=+3</span> <span class="important">Cd=+2</span> <span class="important">Al=+3</span> <span class="important">Ga=+3</span></li>
+		</ul>
+		<br>
+		<p>
     </body>
 </html>
