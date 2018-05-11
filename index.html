@@ -9,11 +9,23 @@
         <script src="jquery-3.3.1.min.js"></script>
         <script>
             $(function(){
+                
                 $(".includedContent").load("navBar.html");
-                    if ($('.pagelink').is(":hover"))
+                var change = 0;
+                $(".home").click(function() {
+                    if (!change)
                     {
-                        this.parent().css("color","white");
+                        $("body").css("background","url(image_400x400.jpg)");
+                        change = 1;
                     }
+                    else
+                    {
+                        $("body").css("background","url(bg.png)");
+                        change = 0;
+                    }
+                    
+                   
+                })
             });
         </script>
         <title>Home | Nomenclature</title>

@@ -1,204 +1,202 @@
 body {
-  background: url(bg.png);
-  font-family: Arial;
-  margin: 0px;
+    background: url(bg.png);
+    font-family: Arial;
+    margin: 0px;
 }
 
 h1 {
-  color: #d36f04;
-  font-family: Arial;
-  margin: auto;
-  text-align: center;
-  font-size: 200%;
+    color: #d36f04;
+    font-family: Arial;
+    margin: auto;
+    text-align: center;
+    font-size: 200%;
 }
 
 h2 {
-  color: #d36f04;
-  font-family: Arial;
-  margin-left: 40px;
-  font-size: 180%;
-  margin-bottom: 1px;
-  text-decoration: underline;
-
+    color: #d36f04;
+    font-family: Arial;
+    margin-left: 40px;
+    font-size: 180%;
+    margin-bottom: 1px;
+    text-decoration: underline;
 }
 
 h3 {
-  color: #d36f04;
-  font-family: Arial;
-  margin-left: 50px;
-  font-size: 150%;
-  margin-bottom: 1px;
-  
+    color: #d36f04;
+    font-family: Arial;
+    margin-left: 50px;
+    font-size: 150%;
+    margin-bottom: 1px; 
 }
 
 p {
-  color: white;
-  font-size: 140%;
-  font-family: Arial;
-  margin-left: 75px;
-  margin-right: 75px;
+    color: white;
+    font-size: 140%;
+    font-family: Arial;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 li {
-  color: white;
-  font-size: 150%;
-  margin: auto;
-  margin-bottom: 10px;
+    color: white;
+    font-size: 150%;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 hr {
-  color: #03a4af;
-  width: 95%;
+    color: #03a4af;
+    width: 95%;
 }
 
 table {
-  width: 50%;
-  margin: auto;
-  margin-top: 50px;
-  color: white;
-  border: 2px  solid;
-  border-color: black;
-  border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+    border: 2px  solid;
+    border-color: black;
+    border-collapse: collapse;
 }
 
 tr, td{
-  color: #03a4af;
-  padding: 20px;
-  font-size: 105%;
-  text-align: center;
+    color: #03a4af;
+    padding: 20px;
+    font-size: 105%;
+    text-align: center;
 }
 
 th {
-  border-bottom: solid;
+    border-bottom: solid;
 }
 
 td:last-child {
-  border-right: none;
+    border-right: none;
 }
 
 /* main and frontMain is the grey background */
 .main {
-  background-color: #333;
-  position: fixed;
-  z-index: -1;
-  height: 100vh;
-  width: 100%;
-  opacity: .75;
+    background-color: #333;
+    position: fixed;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    opacity: .75;
 }
 
 #frontMain {
-  background-color: #333;
-  position: fixed;
-  z-index: -1;
-  height: 100vh;
-  width: 100%;
-  opacity: .5;
+    background-color: #333;
+    position: fixed;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    opacity: .5;
 }
 
 
 /*Highlight Color Override */
 ::selection {
-  background: #444444; /* WebKit/Blink Browsers */
+    background: #444444; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #444444; /* Gecko Browsers */
+    background: #444444; /* Gecko Browsers */
 }
 
 
 
 /*Formatting for links within pages*/
 a.pagelink {
-  color: #d36f04;
+    color: #d36f04;
 }
 
 a:visited.pagelink {
-  color:#d36f04;
+    color:#d36f04;
 }
 
 a:hover.pagelink {
-  color:#03a4af
+    color:#03a4af
 }
 
 a:active.pagelink {
-  color:#03a4af
+    color:#03a4af
 }
 /*=========================*/
 
  /* Navbar container */
- .navbar {
-  overflow: hidden;
-  background-color: inherit;
-  font-family: Arial;
-  margin-bottom: 50px;
+.navbar {
+    overflow: hidden;
+    background-color: inherit;
+    font-family: Arial;
+    margin-bottom: 50px;
 }
 
 /* Links inside the navbar */
 .navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  background-color: #03a4af;
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #03a4af;
 }
 
 /* The dropdown container */
 .dropdown {
-  float: left;
-  overflow: hidden;
+    float: left;
+    overflow: hidden;
 }
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 25px;
-  border: none;
-  outline: none;
-  color: #03a4af;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+    font-size: 25px;
+    border: none;
+    outline: none;
+    color: #03a4af;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
 }
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #454545;
+    background-color: #454545;
 }
 
 /* NAVBAR ELEMENTS BELOW */
 /*==================================================*/
 /* Dropdown content (hidden by default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 250px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  float: none;
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #d36f04;
+    background-color: #d36f04;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 } 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }
 
 /* Animation for underline for the navbar */
@@ -227,149 +225,152 @@ a:active.pagelink {
 
 /* Homepage elements */
 .home {
-  opacity: 1;
-  text-align: center;
-  margin: auto;
-  font-size: 400%;
-  animation: fadein 3s;
-  padding: 5%
+    opacity: 1;
+    text-align: center;
+    margin: auto;
+    font-size: 400%;
+    animation: fadein 3s;
+    padding: 5%;
+    user-select: none;
 }
 
 .home2 {
-  font-size: 150%;
-  animation: fadein 3s;
-  text-align: center;
-  margin: auto;
-  padding: 5%
+    font-size: 150%;
+    animation: fadein 3s;
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+    user-select: none;
 }
 
 @keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 /*=====================================================*/
 
 .answer {
-  color: #d36f04;
+    color: #d36f04;
 }
 /* Elements where they need highlighting */
 .important {
-  color: #03a4af;
+    color: #03a4af;
 }
 .important2 {
-  color:#d36f04;
+    color:#d36f04;
 }
 .important3 {
-  color:red;
+    color:red;
 }
 
 /*===================================================*/
 
 /* For things that is of important but is small (e.g: "*note, _____") */
 .note {
-  color: white;
-  font-size: 110%;
-  margin-left: 4%;
-  margin-top: 2px;
+    color: white;
+    font-size: 110%;
+    margin-left: 4%;
+    margin-top: 2px;
 }
 
 .example {
-  font-size: 120%;
-  color: #03a4af;
-  margin: auto;
-  padding-left: 5%;
+    font-size: 120%;
+    color: #03a4af;
+    margin: auto;
+    padding-left: 5%;
 }
 
 .exercise {
-  color: #03a4af;
-  background: none;
-  border: none;
-  margin: auto;
-  padding: 2%;
-  padding-left: 5vw;
-  overflow: hidden;
-  font-size: 120%;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    color: #03a4af;
+    background: none;
+    border: none;
+    margin: auto;
+    margin-bottom: 1%;
+    padding: 2%;
+    padding-left: 5vw;
+    overflow: hidden;
+    font-size: 120%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .tablelink {
-  color: white
+    color: white
 }
 .tablelink:hover {
-  background-color: #d36f04;
+    background-color: #d36f04;
 }
 
 a.tablelinkcontent {
-  color: white;
+    color: white;
 }
 
 a:visited.tablelinkcontent {
-  color: white;
+    color: white;
 }
 
 a:active.tablelinkcontent {
-  color:#03a4af
+    color:#03a4af
 }
 
 table {
-  border: 1px solid #525252;
-  border-collapse: collapse;
+    border: 1px solid #525252;
+    border-collapse: collapse;
 }
 
 /* EDIT HERE FOR MOBILE DEVICES */
 @media only screen and (max-device-width: 480px) {
-  body {
-    text-align: center;
-  }
+    body {
+        text-align: center;
+    }
 
-  p {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2px
-  }
-  
-  img {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-  }
-  
-  h1 {
-    margin: auto;
-    margin-bottom: 50px;
-    padding: 5%;
-  }
+    p {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2px
+    }
+    
+    img {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    h1 {
+        margin: auto;
+        margin-bottom: 50px;
+        padding: 5%;
+    }
 
-  h2 {
-    margin: auto;
-    padding: 5%;
-  }
+    h2 {
+        margin: auto;
+        padding: 5%;
+    }
 
-  h3 {
-    margin: auto;
-    padding: 5%;
-  }
+    h3 {
+        margin: auto;
+        padding: 5%;
+    }
 
-  li {
-    margin-left: auto;
-    padding: 5%;
-  }
+    li {
+        margin-left: auto;
+        padding: 5%;
+    }
 
-  .home {
-    text-align: center;
-    font-size: 225%;
-    font-size: 175%;
-  }
+    .home {
+        text-align: center;
+        font-size: 225%;
+        font-size: 175%;
+    }
 
-  table {
-    margin: auto;
-  }
+    table {
+        margin: auto;
+    }
 }
