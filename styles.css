@@ -322,59 +322,11 @@ table {
     border-collapse: collapse;
 }
 
+.molecules {
+    height: 50px;
+}
+
 /* EDIT HERE FOR MOBILE DEVICES */
-<<<<<<< HEAD
-@media only screen and (max-device-width: 768px) {
-  body {
-    text-align: center;
-  }
-
-  p {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2px
-  }
-  
-  img {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-  }
-  
-  h1 {
-    margin: auto;
-    margin-bottom: 50px;
-    padding: 5%;
-  }
-
-  h2 {
-    margin: auto;
-    padding: 5%;
-  }
-
-  h3 {
-    margin: auto;
-    padding: 5%;
-  }
-
-  li {
-    margin-left: auto;
-    padding: 5%;
-  }
-
-  .home {
-    text-align: center;
-    font-size: 225%;
-    font-size: 175%;
-  }
-
-  table {
-    margin: auto;
-  }
-=======
 @media only screen and (max-device-width: 480px) {
     body {
         text-align: center;
@@ -426,5 +378,4 @@ table {
         width: 80%;
         margin: auto;
     }
->>>>>>> 99c137843b570c3d4e7a5feae6411b68090f1cda
 }
