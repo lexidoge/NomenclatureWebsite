@@ -9,7 +9,7 @@
         <script src="jquery-3.3.1.min.js"></script>
         <script>
             $(function(){
-                $("#includedContent").load("navBar.html");
+                $(".includedContent").load("navBar.html");
                 $("h1").hide().show(500);
                 $("h2").hide().delay(100).show(500);
                 $("h3").hide().delay(200).show(500);
@@ -38,29 +38,46 @@
     </head>
 
     <body>
-        <div id="main"></div>
-        <div id="includedContent"></div>
+        <div class="main"></div>
+        <div class="includedContent"></div>
         <h1>Transition Metals</h1>
 		    <h2>Important Facts:</h2>
         <p class="note">*<span class="important">Blue</span> highlighted are the more important notes</p>
 		<ul>
-		<li><span class="important">Any</span> compound containing a transition metal is a <span class="important">binary ionic compound</span></li>
-		
+		<li><span class="important">Any</span> compound containing a transition metal is a <span class="important">binary ionic compound (Look at the Ionic Molecules page)</span></li>
+		<li>For transition metals, you would <span class="important">use roman numerals</span> to identify their charge.</li>
 		</ul>
-		<h2>Naming Binary Ionic Compounds</h2>
+        <h2>Naming Binary Ionic Compounds</h2>
 		<p>the transition metal present in the formula is <span class="important">first</span> in the name of the whole compound and does not change.</p>
-		<p>e.g.  Fe is Iron so, FeCl<sub>2</sub> = Iron(II) Chloride</p>
+		<p class="example">e.g. Fe is Iron so, FeCl<sub>2</sub> = Iron(II) Chloride</p>
+        <br>
+        <p>The second Element in the formula <span class="important">(always a nonmetal)</span> is the <span class="important">second</span> word in the compound's name and adds the -ide suffix</p>
+		<p class="example">e.g. Cl is Chlorine so, FeCl<sub>2</sub>= Iron(II) <span class="important">Chloride
+        <br>
+        <h3>Optional Exception to Iron &amp Tin</h3>:
+        <p class="note">These elements use different names that clarify their charge</p>
+        <ul>
+            <li><span class="important">Fe<sup class="important2">+2</sup> = Ferrous</span></li>
+            <li><span class="important">Fe<sup class="important2">+3</sup> = Ferric</span></li>
+            <li><span class="important">Sn<sup class="important2">+</sup> = Stannous</span></li>
+            <li><span class="important">Sn<sup class="important2">+2</sup> = Stannic</span></li>
+            </ul>
+		
+		<p class="example">e.g. Fe<sup>+2</sup> + Cl<sup>-</sup> = Iron(II) Chloride
+        <br>
+        <h3>Exceptions on Constant Charges of Some Transitions</h3>:
+         <p class="note">All of these elements have constant charges and do not require a Roman Numeral.</p>
+		    <ul>
+                 <li ><span class="important">Silver (Ag<sup class="important2">+1</sup>)</span></li>
+                 <li><span class="important">Zinc (Zn<sup class="important2">+2</sup>)</span></li>
+                 <li><span class="important">Scandium (Sc<sup class="important2">+3</sup>)</span></li>
+                 <li><span class="important">Cadmium (Cd<sup class="important2">+2</sup>)</span></li>
+                 <li><span class="important">Aluminum (Al<sup class="important2">+3</sup>)</span></li>
+                 <li><span class="important">Gallium (Ga<sup class="important2">+3</sup>)   </span></li> 
+                  
+            </ul>
 		<br>
-		<p>Transition metals' charge varies in value but they are all cations (always positive). Because of this we must clarify it's charge in the name of the compound. We do this by placing a roman numeral next to the transition metal.</p>
-		<p>e.g. Fe<sup>+2</sup> + Cl<sup>-</sup> = Iron(II) Chloride
-		<br>
-		<ul>
-		<li><span class="important">EXCEPTIONS</span>: Silver, Zinc, Scandium, Cadmium, Aluminum, Gallium have constants charges and do not require a Roman Numeral.</li>
-		<li style="margin-left: 50px"><span class="important">Ag=+1</span> <span class="important">Zn=+2</span> <span class="important">Sc=+3</span> <span class="important">Cd=+2</span> <span class="important">Al=+3</span> <span class="important">Ga=+3</span></li>
-		</ul>
-		<br>
-		<p>The second Element in the formula (always a nonmetal) is the second word in the compound's name and adds the -ide suffix</p>
-		<p>e.g. Cl is Chlorine so, FeCl<sub>2</sub>= Iron(II) <span class="important">Chloride
+		
 		
     </body>
 </html>
