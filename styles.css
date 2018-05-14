@@ -322,6 +322,10 @@ table {
     border-collapse: collapse;
 }
 
+.molecules {
+    height: 50px;
+}
+
 /* EDIT HERE FOR MOBILE DEVICES */
 @media only screen and (max-device-width: 480px) {
     body {
