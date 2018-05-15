@@ -74,6 +74,11 @@ td:last-child {
     border-right: none;
 }
 
+img {
+    width: auto;
+    margin: auto;   
+}
+
 /* main and frontMain is the grey background */
 .main {
     background-color: #333;
@@ -324,10 +329,11 @@ table {
 
 .molecules {
     height: 50px;
+    width: auto;
 }
 
 /* EDIT HERE FOR MOBILE DEVICES */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 768px) {
     body {
         text-align: center;
     }
@@ -344,7 +350,7 @@ table {
     img {
         width: 100%;
         margin: auto;
-        text-align: center;
+          
     }
     
     h1 {
