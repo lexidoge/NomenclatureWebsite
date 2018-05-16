@@ -79,6 +79,9 @@ img {
     margin: auto;   
 }
 
+u {
+    text-decoration-color: #d36f04;
+}
 /* main and frontMain is the grey background */
 .main {
     background-color: #333;
